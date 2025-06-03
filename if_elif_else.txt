@@ -1,0 +1,27 @@
+** write a python program to read a number and display the respective value in word format **
+
+num = int(input("Enter a number : "))
+if num == 0:
+   print("Zero")
+elif num == 1:
+   print("One")
+elif num == 2:
+   print("Two")
+elif num == 3:
+   print("Three")
+else:
+   print("Number out of range !")
+
+
+output:
+
+Enter a number : 2
+
+Two
+
+
+and
+
+Enter a number : 8
+
+Number out of range !

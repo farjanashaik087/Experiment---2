@@ -1,0 +1,12 @@
+** write a python program using while loop to display first N number divisible by 5? **
+
+N = int(input("Enter the value of N : "))
+count = 0
+num = 5
+while count < N:
+      print(num)
+num+=5
+count +=1
+
+
+output:

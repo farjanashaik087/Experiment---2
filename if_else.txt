@@ -1,0 +1,17 @@
+** Write a python program to read a number and check the given number is even or odd? **
+
+num= int(input("Enter a number : "))
+if num%2==0:
+print(num,"is even")
+else:
+print(num,"is odd")
+
+output:
+
+Enter a number : 21
+
+21 is odd
+
+Enter a number : 34
+
+34 is even
